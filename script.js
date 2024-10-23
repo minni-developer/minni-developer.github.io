@@ -14,7 +14,7 @@
 `,
       skills: `
       <h2>Skills</h2>
-<div class="skills-container">
+    <div class="skills-container">
     <!-- Skill 1: Programming Languages -->
     <div class="skill">
         <div class="icon">
@@ -33,7 +33,7 @@
         </div>
         <div class="details">
             <h3>Web Development</h3>
-            <p>HTML, CSS, JavaScript, React, Node.js, Flask</p>
+            <p>HTML, CSS, JavaScript, Wordpress</p>
         </div>
     </div>
 
@@ -44,7 +44,7 @@
         </div>
         <div class="details">
             <h3>Tools & Technologies</h3>
-            <p>Git, Docker, Spark, Jupyter, AWS, Wazuh, Let's Defend</p>
+            <p>Git, Docker, Spark, Figma, Wazuh, Let's Defend</p>
         </div>
     </div>
 
@@ -88,7 +88,7 @@
         </div>
         <div class="details">
             <h3>Writing & Documentation</h3>
-            <p>Thesis Writing, Technical Documentation, Report Writing, Content Creation</p>
+            <p>Overleaf Latex, Thesis Writing, Technical Documentation, Content Creation</p>
         </div>
     </div>
 
@@ -98,8 +98,8 @@
             <i class="fas fa-language"></i>
         </div>
         <div class="details">
-            <h3>Multilingual Abilities</h3>
-            <p>English, Urdu, Balochi, Pashto</p>
+            <h3>Bilingual Abilities</h3>
+            <p>English, Urdu</p>
         </div>
     </div>
 </div>
@@ -238,15 +238,6 @@
         <p>🏆 TechWeek Workshop<br>Developers Club Training</p>
       </div>
       <div class="honor">
-        <p>🏆 BUITEMS Student Affairs<br>Volunteering since 2021</p>
-      </div>
-      <div class="honor">
-        <p>🏆 Voice of Balochistan<br>Voluntarily worked with VOB</p>
-      </div>
-      <div class="honor">
-        <p>🏆 Broadcasting Unit The City School<br>Served as a Lead Broadcaster (2008-2013)</p>
-      </div>
-      <div class="honor">
         <p>🏆 Science Fair<br>Best Presented Project 2012</p>
       </div>
       <div class="honor">
@@ -262,24 +253,49 @@
         <p>🏆 Parenting Conference<br>Organized Awareness Workshop for Parents (2011)</p>
       </div>
       `,
+      voluntary: `
+      <h2>Voluntary Experiences</h2>
+      <br>
+      <div class="voluntary-container">
+          <div class="voluntary-experience">
+              <h3><i class="fas fa-user-graduate"></i> BUITEMS Student Affairs</h3>
+              <p><strong>Duration:</strong> 2021 - 2023</p>
+              <p>Contributed to various student initiatives, enhancing campus life and student engagement.</p>
+          </div>
+          <div class="voluntary-experience">
+              <h3><i class="fas fa-broadcast-tower"></i> Broadcasting Unit, The City School</h3>
+              <p><strong>Role:</strong> Lead Broadcaster</p>
+              <p><strong>Duration:</strong> 2008 - 2013</p>
+              <p>Led broadcasting activities, coordinating with team members to deliver engaging content.</p>
+          </div>
+          <div class="voluntary-experience">
+              <h3><i class="fas fa-volume-up"></i> Voice of Balochistan</h3>
+              <p>Voluntarily worked with VOB, promoting local culture and issues through media.</p>
+          </div>
+          <div class="voluntary-experience">
+              <h3><i class="fas fa-chalkboard-teacher"></i> Mentorship </h3>
+              <p><strong>Duration:</strong> 2021 - Present</p>
+              <p>Providing mentorship to students and young professionals in cybersecurity and career development, guiding them in skill-building and project work.</p>
+          </div>
+      </div>
+      
+      
+      `,
       blogs: `
       <h2>Blog</h2>
       <br>
       <div class="blog-container">
           <div class="blog-post" id="blog1">
-              <h3>Understanding Web Pentesting</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam quis tortor nec purus dapibus euismod...</p>
-              <a href="#" target="_blank">Read More</a>
+          <h3>A Day in the Life of a Software Engineering Student</h3>
+          <a href="Blogs/blog1.html" target="_blank">Read More ..</a>
           </div>
           <div class="blog-post" id="blog2">
-              <h3>Big Data Analytics: Insights from UNESCO Dataset</h3>
-              <p>Proin ac justo et quam auctor efficitur. Nulla facilisi. Suspendisse nec odio ullamcorper, pharetra neque sit amet...</p>
-              <a href="#" target="_blank">Read More</a>
+          <h3>How I Explored Various Domains to Land in Cybersecurity</h3>
+          <a href="Blogs/blog2.html" target="_blank">Read More ..</a>
           </div>
           <div class="blog-post" id="blog3">
-              <h3>Reverse Engineering in Software Development</h3>
-              <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation...</p>
-              <a href="#" target="_blank">Read More</a>
+              <h3>The Unexpected Lessons Learned from Participating in an Election Campaign</h3>
+              <a href="Blogs/blog3.html" target="_blank">Read More ..</a>
           </div>
       </div>
       
