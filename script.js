@@ -297,6 +297,18 @@
               <h3>The Unexpected Lessons Learned from Participating in an Election Campaign</h3>
               <a href="Blogs/blog3.html" target="_blank">Read More ..</a>
           </div>
+          <div class="blog-post" id="blog4">
+          <h3>I did the ChatGPT prompt of </h3>
+          <a href="Blogs/blog4.html" target="_blank">Read More ..</a>
+          </div>
+          <div class="blog-post" id="blog5">
+          <h3>Balancing Passion, Career, and Resilience</h3>
+          <a href="Blogs/blog5.html" target="_blank">Read More ..</a>
+          </div>
+          <div class="blog-post" id="blog6">
+          <h3>A Glimpse into My World </h3>
+          <a href="Blogs/blog6.html" target="_blank">Read More ..</a>
+          </div>
       </div>
       
       `,
@@ -335,8 +347,7 @@
       achievements: `
           <h2>Achievements</h2>
           <br>
-          <p>1. Developed a SOC monitoring tool used by top organizations.</p>
-          <p>2. Conducted over 100 penetration tests with a 95% success rate.</p>
+          <p> </p>
       `
   };
   
