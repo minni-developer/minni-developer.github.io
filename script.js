@@ -12,96 +12,96 @@
       <h6>Click on the sections to learn more about my <span class="emphasized">skills</span>, <span class="emphasized">projects</span>, and <span class="emphasized">achievements</span>.</h6>
       </div>
 `,
-      skills: `
-      <h2>Skills</h2>
-    <div class="skills-container">
-    <!-- Skill 1: Programming Languages -->
-    <div class="skill">
-        <div class="icon">
-            <i class="fas fa-code"></i>
-        </div>
-        <div class="details">
-            <h3>Programming Languages</h3>
-            <p>Python, Java, C++, JavaScript, SQL</p>
-        </div>
-    </div>
+skills: `
+<h2>Skills</h2>
+<div class="skills-container">
+  <!-- Skill 1: Programming Languages -->
+  <div class="skill">
+      <div class="icon">
+          <i class="fas fa-code"></i>
+      </div>
+      <div class="details">
+          <h3>Programming Languages</h3>
+          <p>Python, Java, C++, JavaScript, SQL</p>
+      </div>
+  </div>
 
-    <!-- Skill 2: Web Development -->
-    <div class="skill">
-        <div class="icon">
-            <i class="fas fa-laptop-code"></i>
-        </div>
-        <div class="details">
-            <h3>Web Development</h3>
-            <p>HTML, CSS, JavaScript, Wordpress</p>
-        </div>
-    </div>
+  <!-- Skill 2: SEO and Content Writing -->
+  <div class="skill">
+      <div class="icon">
+          <i class="fas fa-search-dollar"></i>
+      </div>
+      <div class="details">
+          <h3>Search Engine Optimization</h3>
+          <p>Keyword Research, Competitor Analysis, Content Strategy Development, Blog & Copywriting, SEO Analytics, Google Trends</p>
+      </div>
+  </div>  
 
-    <!-- Skill 3: Tools & Technologies -->
-    <div class="skill">
-        <div class="icon">
-            <i class="fas fa-tools"></i>
-        </div>
-        <div class="details">
-            <h3>Tools & Technologies</h3>
-            <p>Git, Docker, Spark, Figma, Wazuh, Let's Defend</p>
-        </div>
-    </div>
+  <!-- Skill 3: Tools & Technologies -->
+  <div class="skill">
+      <div class="icon">
+          <i class="fas fa-tools"></i>
+      </div>
+      <div class="details">
+          <h3>Tools & Technologies</h3>
+          <p>Git, Docker, Spark, Figma, Wazuh, Let's Defend</p>
+      </div>
+  </div>
 
-    <!-- Skill 4: Cybersecurity -->
-    <div class="skill">
-        <div class="icon">
-            <i class="fas fa-shield-alt"></i>
-        </div>
-        <div class="details">
-            <h3>Cybersecurity</h3>
-            <p>Web Pentesting, Vulnerability Scanning, SOC Monitoring, Ethical Hacking</p>
-        </div>
-    </div>
+  <!-- Skill 4: Cybersecurity -->
+  <div class="skill">
+      <div class="icon">
+          <i class="fas fa-shield-alt"></i>
+      </div>
+      <div class="details">
+          <h3>Cybersecurity</h3>
+          <p>Web Pentesting, Vulnerability Scanning, SOC Monitoring, Ethical Hacking</p>
+      </div>
+  </div>
 
-    <!-- Skill 5: Data Analysis -->
-    <div class="skill">
-        <div class="icon">
-            <i class="fas fa-chart-line"></i>
-        </div>
-        <div class="details">
-            <h3>Data Analysis</h3>
-            <p>Pandas, NumPy, Big Data Analysis, Spark DataFrame, Data Visualization</p>
-        </div>
-    </div>
+  <!-- Skill 5: Data Analysis -->
+  <div class="skill">
+      <div class="icon">
+          <i class="fas fa-database"></i>
+      </div>
+      <div class="details">
+          <h3>Data Analysis</h3>
+          <p>Pandas, NumPy, Big Data Analysis, Spark DataFrame, Data Visualization</p>
+      </div>
+  </div>
 
-    <!-- Skill 6: Soft Skills -->
-    <div class="skill">
-        <div class="icon">
-            <i class="fas fa-user-friends"></i>
-        </div>
-        <div class="details">
-            <h3>Soft Skills</h3>
-            <p>Teamwork, Problem-Solving, Communication, Leadership, Time Management</p>
-        </div>
-    </div>
+  <!-- Skill 6: Soft Skills -->
+  <div class="skill">
+      <div class="icon">
+          <i class="fas fa-user-friends"></i>
+      </div>
+      <div class="details">
+          <h3>Soft Skills</h3>
+          <p>Teamwork, Problem-Solving, Communication, Leadership, Time Management</p>
+      </div>
+  </div>
 
-    <!-- Skill 7: Writing & Documentation -->
-    <div class="skill">
-        <div class="icon">
-            <i class="fas fa-pen-nib"></i>
-        </div>
-        <div class="details">
-            <h3>Writing & Documentation</h3>
-            <p>Overleaf Latex, Thesis Writing, Technical Documentation, Content Creation</p>
-        </div>
-    </div>
+  <!-- Skill 7: Writing & Documentation -->
+  <div class="skill">
+      <div class="icon">
+          <i class="fas fa-book"></i>
+      </div>
+      <div class="details">
+          <h3>Writing & Documentation</h3>
+          <p>Overleaf LaTeX, Thesis Writing, Technical Documentation, Content Creation</p>
+      </div>
+  </div>
 
-    <!-- Skill 8: Multilingual Abilities -->
-    <div class="skill">
-        <div class="icon">
-            <i class="fas fa-language"></i>
-        </div>
-        <div class="details">
-            <h3>Bilingual Abilities</h3>
-            <p>English, Urdu</p>
-        </div>
-    </div>
+  <!-- Skill 8: Multilingual Abilities -->
+  <div class="skill">
+      <div class="icon">
+          <i class="fas fa-language"></i>
+      </div>
+      <div class="details">
+          <h3>Bilingual Abilities</h3>
+          <p>English, Urdu</p>
+      </div>
+  </div>
 </div>
 
       `,
@@ -111,18 +111,43 @@
       
       <h2>Work Experience</h2> <br>
       <div class="experience-container">
+    
+          <!-- SEO Auditor & Strategist -->
+          <div class="experience">
+              <div class="icon">
+                  <i class="fas fa-search-dollar"></i>
+              </div>
+              <div class="details">
+                  <h3>SEO Auditor & Strategist</h3>
+                  <p class="company">BISSTC • Jan 2025</p>
+                  <p class="role">Developed and implemented effective SEO strategies to enhance online visibility and drive organic traffic.</p>
+              </div>
+          </div>
+    
+          <!-- Educator & Mentorship -->
+          <div class="experience">
+              <div class="icon">
+                  <i class="fas fa-user-graduate"></i>
+              </div>
+              <div class="details">
+                  <h3>Educator & Mentor</h3>
+                  <p class="company">Beaconhouse School System, Juniper Campus • Nov - Dec 2024</p>
+                  <p class="role">Mentored students and delivered lectures on modern education techniques.</p>
+              </div>
+          </div> 
+          
           <!-- PSEB Apprenticeship -->
           <div class="experience">
               <div class="icon">
-                  <i class="fas fa-shield-alt"></i>
+              <i class="fas fa-shield-alt"></i>
               </div>
               <div class="details">
                   <h3>PSEB Apprenticeship</h3>
                   <p class="company">Ultrasoft System Inc. • Aug - Sept 2024</p>
-                  <p class="role">Web Pentesting</p>
+                  <p class="role">Conducted web penetration testing and vulnerability analysis to strengthen cybersecurity.</p>
               </div>
           </div>
-      
+          
           <!-- SEO Intern -->
           <div class="experience">
               <div class="icon">
@@ -131,19 +156,19 @@
               <div class="details">
                   <h3>SEO Intern</h3>
                   <p class="company">Icon Pro Digital Solutions • Jan - Apr 2024</p>
-                  <p class="role">Developed and maintained SEO strategies.</p>
+                  <p class="role">Assisted in developing and maintaining comprehensive SEO strategies for client projects.</p>
               </div>
           </div>
-      
+          
           <!-- Teaching Assistance -->
           <div class="experience">
               <div class="icon">
                   <i class="fas fa-chalkboard-teacher"></i>
               </div>
               <div class="details">
-                  <h3>Teaching Assistance</h3>
+                  <h3>Teaching Assistant</h3>
                   <p class="company">BUITEMS • Aug - Dec 2023</p>
-                  <p class="role">Conducted machine learning lectures, lab sessions, and debugging.</p>
+                  <p class="role">Facilitated machine learning lectures, supervised labs, and assisted in debugging projects.</p>
               </div>
           </div>
       </div>
@@ -227,6 +252,11 @@
         <img src="logo/cisco.svg" alt="Cisco Logo" class="cert-logo">
         <p>Introduction to Cybersecurity<br>Cisco Networking Academy</p>
       </div>
+      <div class="certification">
+      <img src="logo/Digibizz.jpeg" alt="DigiBizz logo" class="cert-logo">
+      <p>Introduction to Cybersecurity<br>Cisco Networking Academy</p>
+    </div>
+
     
       `,
       honors: `
@@ -345,10 +375,33 @@
       
       `,
       achievements: `
-          <h2>Achievements</h2>
-          <br>
-          <p> </p>
-      `
+      <h2>Achievements</h2>
+      <br>
+      <div class="achievements-container">
+        <div class="achievements-experience">
+          <h3><i class="fas fa-award"></i> Dean’s List Honoree</h3>
+          <p><strong>Duration:</strong> 2020 - 2024</p>
+          <p>Demonstrated academic excellence by maintaining a CGPA of 3.5/4.0, ranking in the top percentile of the program.</p>
+        </div>
+        <div class="achievements-experience">
+          <h3><i class="fas fa-trophy"></i> Red Team Winner</h3>
+          <p><strong>Duration:</strong> 2024</p>
+          <p>Won the regional round for Ignite Cyber Hackathon 2024 and secured 20th place in the national round.</p>
+        </div>
+        <div class="achievements-experience">
+          <h3><i class="fas fa-flag-checkered"></i> Blackhat MEA Qualifying Round</h3>
+          <p><strong>Duration:</strong> 2024</p>
+          <p>Secured 435th place in the Blackhat MEA Qualifying Round.</p>
+        </div>
+        <div class="achievements-experience">
+          <h3><i class="fas fa-medal"></i> National Cyber Hackathon Finalist</h3>
+          <p><strong>Duration:</strong> 2023</p>
+          <p>Performed well in the national round and qualified for the International Round at Blackhat MEA.</p>
+        </div>
+      </div>
+    `
+
+    
   };
   
 

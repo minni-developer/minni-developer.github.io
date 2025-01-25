@@ -1,3 +1,27 @@
+/* General Theme Colors */
+:root {
+  --background-dark: #0d0d0d; /* Deep black */
+  --background-light: #1a1a1a; /* Slightly lighter black */
+  --text-light: #f0f0f0; /* Soft white */
+  --primary-accent: #ff79c6; /* Bright pink */
+  --secondary-accent: #6272a4; /* Soft blue */
+  --hover-bg: #282a36; /* Hover background */
+  --hover-text: #ffffff; /* White text on hover */
+  --border-light: #44475a; /* Soft border color */
+  --box-shadow: rgba(0, 0, 0, 0.5); /* Stronger shadow */
+}
+
+
+/* Global Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  background-color: var(--background-dark);
+  color: var(--text-light);
+  overflow-x: hidden;
+}
+
+
 /* Basic Reset */ 
 * {
   margin: 0;
@@ -15,12 +39,35 @@
   color: #D4D4D4; /* Keep this */
 }
 
+
+/* Profile Picture Styles */
+.profile-pic-container {
+  display: flex;
+  justify-content: center; /* Center align the image */
+  margin-bottom: 15px; /* Space below the image */
+}
+
+.profile-pic {
+  width: 100px; /* Adjust the size */
+  height: 100px;
+  border-radius: 50%; /* Makes the image round */
+  border: 4px solid var(--primary-accent);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds a soft shadow */
+  object-fit: cover; /* Ensures the image scales nicely */
+}
+ 
+
 /* Sidebar */
 .sidebar {
-  width: 250px;
-  background-color: #0a0a0a; /* Keep this */
-  padding: 20px;
-  border-right: 1px solid #3C3D37;
+  flex: 0 0 280px; /* Fixed width for the sidebar */
+  background-color: var(--background-light);
+  padding: 25px;
+  border-right: 1px solid var(--border-light);
+  height: auto; /* Full height of the viewport */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centers content horizontally */
+  overflow-y: auto; /* Enables vertical scrolling */
 }
 
 .sidebar-header a:hover {
@@ -35,11 +82,14 @@
 
 .sidebar-header h2,a {
   font-size: 22px;
-  color: #FF8A8A; /* Changed to Soft Violet */
+  color: var(--primary-accent);
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .sidebar ul {
   list-style: none;
+  width: 90%;
 }
 
 .sidebar ul li {
@@ -47,18 +97,19 @@
 }
 
 .sidebar ul li a {
-  color: #D4D4D4; /* Keep this */
+  color: var(--text-light);
   text-decoration: none;
   display: flex;
   align-items: center;
-  padding: 5px 10px;
-  border-radius: 3px;
+  padding: 10px 8px;
+  border-radius: 4px;
   font-size: 14px;
+  transition: background-color 0.2s;
 }
 
 .sidebar ul li a:hover {
-  background-color: #CDC2A5; /* Changed to Light Grey*/
-  color: black; /* Text color on hover */
+  background-color: var(--hover-bg);
+  color: var(--hover-text);
 }
 
 .sidebar ul li a i {
@@ -70,11 +121,12 @@
 .content {
   flex-grow: 1;
   padding: 20px;
+  background-color: var(--background-dark);
+  display: flex;
 }
 
 #main-content {
-  background-color: #070707; /* Ensure dark background */
-  border: 1px solid #333; /* Border for clarity */
+  background-color:var(--background-dark); /* Ensure dark background */
   padding: 20px; /* Consistent padding */
   border-radius: 5px; /* Rounded corners */
   transition: all 0.3s ease; /* Smooth transition */
@@ -98,7 +150,8 @@
 
 #dynamicPhrase {
   font-size: 22px; /* Larger size for phrases */
-  color: #D10032; /* Changed to Raspberry */
+  color: var(--secondary-accent);
+  font-style: italic;
   transition: all 0.3s ease; /* Smooth transition for effects */
 }
 
@@ -121,17 +174,17 @@ h2 {
 }
 
 h3 {
-  color: #F4CE14; /* Keep this */
+  color: var(--secondary-accent); /* Keep this */
 }
 
 p {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 1.5;
-  color: #cccccc; /* Keep this */
+  color: var(--text-light); /* Keep this */
 }
 
 a {
-  color: #DA7297; /* Changed to Cyan */
+  color:var(--primary-accent); /* Changed to Cyan */
   text-decoration: none;
 }
 
@@ -159,13 +212,13 @@ a:hover {
 
 .social i {
   margin-right: 10px;
-  color: #3498db; /* Icon color */
+  color: var(--primary-accent) ; /* Icon color */
   transition: color 0.3s;
 }
 
 .social a {
   text-decoration: none;
-  color: #569cd6; /* Link color */
+  color: var(--secondary-accent); /* Link color */
   transition: color 0.3s;
 }
 
@@ -186,12 +239,12 @@ a:hover {
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   margin: 40px 0;
   padding: 20px;
-  background-color: #1e1e1e; /* VS Code dark background */
+  background-color: var(--background-dark); /* VS Code dark background */
   border-radius: 8px;
 }
 
 .project {
-  background-color: #1e1e1e; /* Dark card background */
+  background-color:var(--background-light); /* Dark card background */
   padding: 20px;
   border-radius: 8px;
   position: relative;
@@ -218,21 +271,21 @@ a:hover {
 }
 
 .project:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+  transform: scale(1.03);
+  box-shadow: 0 8px 16px var(--box-shadow);
 }
 
 .project h3 {
-  font-size: 18px;
-  color: #d4d4d4; /* Light grey text */
+  font-size: 20px;
+  color: var(--secondary-accent);
   margin-bottom: 10px;
   z-index: 1;
   position: relative;
 }
 
 .project p {
-  font-size: 14px;
-  color: #9cdcfe; /* VS Code blue text */
+  font-size: 16px;
+  color: var(--text-light);
   z-index: 1;
   position: relative;
 }
@@ -240,12 +293,13 @@ a:hover {
 
 /* Certificate Styles */
 .certification {
-  background-color: #252526; /* Background color for the certification cards */
-  border-radius: 5px;
-  padding: 15px;
+  background-color: var(--background-light);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px var(--box-shadow);
   margin-bottom: 20px;
-  display: flex; /* Use flex to align items */
-  align-items: center; /* Center align items vertically */
+  display: flex;
+  align-items: center;
 }
 
 .cert-logo {
@@ -255,32 +309,19 @@ a:hover {
 }
 
 .certification p {
-  color: #D4D4D4; /* Text color */
+  color: var(--text-light); /* Text color */
   margin: 0; /* Remove default margins */
 }
 
 /* Honor Styles */
 .honor {
-  background-color: #2e2e2e; /* Background color for the honor cards */
-  border-radius: 5px;
-  padding: 15px;
+  background-color:  var(--background-light); /* Background color for the honor cards */
+  border-radius: 10px;
+  padding: 20px;
   margin-bottom: 10px;
-  color: #D4D4D4; /* Text color */
+  color:var(--text-light); /* Text color */
   font-size: 16px; /* Font size for honors */
   position: relative; /* Positioning for the trophy icon */
-}
-
-.honor::before {
-  content: ''; /* Empty content for the icon */
-  position: absolute;
-  left: -30px; /* Position to the left of the text */
-  top: 50%; /* Center vertically */
-  transform: translateY(-50%); /* Adjust for exact centering */
-  width: 20px; /* Width for icon */
-  height: 20px; /* Height for icon */
-  background-image: url('path/to/trophy-icon.png'); /* Path to trophy icon */
-  background-size: contain; /* Size icon correctly */
-  background-repeat: no-repeat; /* Avoid repeating */
 }
 
 /* Voluntary Experiences Styles */
@@ -292,8 +333,8 @@ a:hover {
 }
 
 .voluntary-experience {
-  background-color: #333333; /* Darker background for contrast */
-  color: #f5f5f5; /* Light text for readability */
+  background-color:var(--background-light); /* Darker background for contrast */
+  color: var(--secondary-accent); /* Light text for readability */
   padding: 15px; /* Padding inside the box */
   border-radius: 8px; /* Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
@@ -302,7 +343,6 @@ a:hover {
 .voluntary-experience h3 {
   margin: 0 0 5px; /* No margin above, small margin below */
   font-size: 20px; /* Slightly larger font for titles */
-  color: #dcdcdc; /* Accent color for titles */
 }
 
 .voluntary-experience p {
@@ -323,38 +363,24 @@ a:hover {
 
 .experience {
   flex: 1 1 calc(33% - 20px); /* Responsive blocks, adjust the percentage for the number of columns */
-  background-color: #252526; /* Consistent background */
+  background-color: var(--background-light); /* Consistent background */
   padding: 20px;
   border-radius: 5px;
-  color: #D4D4D4; /* Text color */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Add some shadow for depth */
+  color: var(--primary-accent); /* Text color */
+  box-shadow: 0 4px 10px var(--box-shadow); /* Add some shadow for depth */
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .experience h3 {
-  color: #FF8A8A; /* Example color for job titles */
+  color: var(--primary-accent); /* Example color for job titles */
   margin-bottom: 10px; /* Space below title */
 }
 
 .experience p {
   margin: 5px 0; /* Space between paragraphs */
+  font-size: 16px;
+  color: var(--text-light);
 }
-
-/* Profile Picture Styles */
-.profile-pic-container {
-  display: flex;
-  justify-content: center; /* Center align the image */
-  margin-bottom: 10px; /* Space below the image */
-}
-
-.profile-pic {
-  width: 100px; /* Adjust the size */
-  height: 100px;
-  border-radius: 50%; /* Makes the image round */
-  border: 4px solid #3a3f5b; /* Violet border for emphasis */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adds a soft shadow */
-  object-fit: cover; /* Ensures the image scales nicely */
-}
- 
 
 
 /* Main Content */
@@ -386,9 +412,9 @@ a:hover {
 }
 
 .welcome-section h1 {
-  font-size: 32px;
-  color: #3a3f5b; /* Keep this */
-  margin-bottom: 10px;
+  font-size: 38px;
+  color: var(--secondary-accent);
+  margin-bottom: 15px;
 }
 
 #rotatingText {
@@ -396,25 +422,25 @@ a:hover {
 }
 
 #dynamicPhrase {
-  font-size: 24px;
-  color: #D10032;
-}
+    font-size: 24px;
+    color: var(--secondary-accent);
+    font-style: italic;
+  }
 
+  /* Explore Section */
 .explore-section {
-  background-color: #1e1e1e; /* Distinct background */
+  margin-top: 20px;
+  text-align: center;
+  background-color: var(--background-light);
+  box-shadow: 0 4px 10px var(--box-shadow);
   padding: 20px;
   border-radius: 8px;
   margin-top: auto; /* Ensure it's pushed to the bottom */
 }
 
-.explore-section h3 {
-  font-size: 24px;
-  color: #F4CE14;
-}
-
-.explore-section p {
-  font-size: 16px;
-  color: #cccccc;
+.explore-section h6 {
+  font-size: 18px;
+  color: var(--text-light);
 }
 
 .emphasized {
@@ -426,8 +452,8 @@ a:hover {
 /* About Section */
 
 .about-container {
-  background-color: #1e1e1e; /* Dark background for a modern look */
-  color: #f5f5f5; /* Light text color for readability */
+  background-color:var(--background-dark); /* Dark background for a modern look */
+  color: var(--text-light); /* Light text color for readability */
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -440,7 +466,7 @@ a:hover {
 }
 
 .highlight {
-  color: #3498db; /* Accent color for highlights */
+  color: var(--secondary-accent); /* Accent color for highlights */
   font-weight: bold; /* Bold font for emphasis */
 }
 
@@ -459,7 +485,7 @@ a:hover {
   margin: 40px 0;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: #1e1e1e; /* VS Code dark background */
+  background-color:var(--background-dark); /* VS Code dark background */
   padding: 20px;
   border-radius: 8px;
 }
@@ -467,7 +493,7 @@ a:hover {
 .skill {
   display: flex;
   align-items: center;
-  background-color: #252526; /* Slightly lighter dark background */
+  background-color: var(--background-dark); /* Slightly lighter dark background */
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
@@ -476,37 +502,56 @@ a:hover {
   transition: transform 0.3s;
 }
 
+
+.skill .icon {
+  font-size: 28px;
+  color: var(--primary-accent);
+  margin-bottom: 10px;
+}
+
+.skill h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: var(--secondary-accent);
+}
+
+.skill p {
+  font-size: 16px;
+  color: var(--text-light);
+}
+
 .skill:hover {
-  transform: translateY(-5px);
-  background-color: #333333; /* Highlight on hover */
+  transform: scale(1.03);
+  box-shadow: 0 8px 16px var(--box-shadow);
+  background-color: var(--hover-bg); /* Highlight on hover */
 }
 
 .icon {
   font-size: 24px;
-  color: #569cd6; /* VS Code blue color */
+  color: var(--primary-accent); /* VS Code blue color */
   margin-right: 20px;
 }
 
 .details h3 {
   margin: 0;
   font-size: 18px;
-  color: #dcdcdc; /* Light grey for headings */
+  color:var(--primary-accent); /* Light grey for headings */
 }
 
 .details p {
   font-size: 14px;
-  color: #9cdcfe; /* VS Code text color */
+  color: var(--text-light-light); /* VS Code text color */
 }
 
 
-/* Experience Section */
+/* Work Experience Section */
 .experience-container {
   display: flex;
   gap: 20px;
   margin: 40px 0;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: #1e1e1e; /* VS Code dark background */
+  background-color: var(--background-dark); /* VS Code dark background */
   padding: 20px;
   border-radius: 8px;
 }
@@ -515,7 +560,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  background-color: #252526; /* Slightly lighter dark background */
+  background-color:var(--background-light); /* Slightly lighter dark background */
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
@@ -525,20 +570,36 @@ a:hover {
 }
 
 .experience:hover {
-  transform: translateY(-5px);
-  background-color: #333333; /* Highlight on hover */
+  transform: scale(1.03);
+  box-shadow: 0 8px 16px var(--box-shadow);
 }
 
-.icon {
-  font-size: 24px;
-  color: #569cd6; /* VS Code blue color */
+.experience h3 {
+  font-size: 20px;
+  color: var(--primary-accent);
   margin-bottom: 10px;
+}
+
+.experience p {
+  font-size: 16px;
+  color: var(--text-light);
+}
+
+icon {
+  font-size: 24px;
+  color: var(--primary-accent); /* VS Code blue color */
+  margin-right: 20px;
 }
 
 .details h3 {
   margin: 0;
   font-size: 18px;
-  color: #dcdcdc; /* Light grey for headings */
+  color:var(--primary-accent); /* Light grey for headings */
+}
+
+.details p {
+  font-size: 14px;
+  color: var(--text-light-light); /* VS Code text color */
 }
 
 .details .company {
@@ -561,12 +622,12 @@ a:hover {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin: 40px 0;
   padding: 20px;
-  background-color: #1e1e1e; /* VS Code dark background */
+  background-color:var(--background-dark); /* VS Code dark background */
   border-radius: 8px;
 }
 
 .blog-post {
-  background-color: #252526; /* Dark card background */
+  background-color: var(--background-light); /* Dark card background */
   padding: 20px;
   border-radius: 8px;
   position: relative;
@@ -578,28 +639,59 @@ a:hover {
 .blog-post:hover {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+  background-color: var(--hover-bg); 
 }
 
 .blog-post h3 {
-  font-size: 18px;
-  color: #d4d4d4; /* Light grey text */
+  font-size: 20px;
   margin-bottom: 10px;
 }
 
 .blog-post p {
-  font-size: 14px;
-  color: #9cdcfe; /* VS Code blue text */
+  font-size: 16px;
+  color: var(--text-light);
   margin-bottom: 15px;
 }
 
 .blog-post a {
   text-decoration: none;
-  font-size: 14px;
-  color: #569cd6; /* Blue link color */
+  font-size: 16px;
+  color: var(--primary-accent);
   transition: color 0.3s;
 }
 
 .blog-post a:hover {
-  color: #9cdcfe; /* Lighter blue on hover */
+  color: var(--hover-text);
+}
+
+
+/* Achievements Section */
+.achievements-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between achievements */
+  background-color: var(--background-dark);
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.achievements-experience {
+  background-color: var(--background-light); /* Background for each achievement */
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.achievement h3 {
+  font-size: 20px;
+  color: var(--primary-accent);
+  margin-bottom: 10px;
+}
+
+.achievement p {
+  font-size: 16px;
+  color: var(--text-light);
 }
 
