@@ -123,11 +123,15 @@ body {
   padding: 20px;
   background-color: var(--background-dark);
   display: flex;
+  overflow: auto;
+  max-height: auto;
 }
 
 #main-content {
   background-color:var(--background-dark); /* Ensure dark background */
   padding: 20px; /* Consistent padding */
+  max-height: auto;
+  overflow: auto;
   border-radius: 5px; /* Rounded corners */
   transition: all 0.3s ease; /* Smooth transition */
 }

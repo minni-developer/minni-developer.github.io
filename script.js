@@ -188,7 +188,7 @@ skills: `
           </div>
           <div class="project" id="jedit-customization">
               <h3>Jedit Customization</h3>
-              <p>Reverse-engineered the Java compiler by adding new modules and improving the system's functionality.</p>
+              <p>Reverse-engineered the Java text editor by adding new modules and improving the system's functionality.</p>
           </div>
           <div class="project" id="network-simulation">
               <h3>Comprehensive Network Simulation</h3>
