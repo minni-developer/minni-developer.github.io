@@ -111,7 +111,42 @@ skills: `
       
       <h2>Work Experience</h2> <br>
       <div class="experience-container">
-    
+      <!-- Cybersecurity Intern -->
+      <div class="experience">
+          <div class="icon">
+          <i class="fas fa-lock"></i>
+          </div>
+          <div class="details">
+              <h3>Cybersecurity Intern </h3>
+              <p class="company">Developershub.Co • March - April 2025</p>
+              <p class="role">Tested and improved a Saicafe management system while assisting in vulnerability assessment and overall system security enhancement. </p>
+          </div>
+      </div>
+
+      <!-- Cybersecurity Intern  -->
+      <div class="experience">
+          <div class="icon">
+            <i class="fas fa-bug"></i>
+          </div>
+          <div class="details">
+              <h3>Cybersecurity Intern</h3>
+              <p class="company">DevelopersHub.co • March - April 2025</p>
+              <p class="role"> Conducted pentesting and enhanced Saicafe app security by fixing vulnerabilities and strengthening it.</p>
+          </div>
+      </div>
+
+      <!-- Cybersecurity Intern  -->
+      <div class="experience">
+          <div class="icon">
+            <i class="fas fa-network-wired"></i>
+          </div>
+          <div class="details">
+              <h3>Cybersecurity Intern</h3>
+              <p class="company">Code Alpha • Feb - May 2025</p>
+              <p class="role">Build a network sniffer tool to capture and analyze network packets and extract key information while filtering based on protocols. </p>
+          </div>
+      </div>
+
           <!-- SEO Auditor & Strategist -->
           <div class="experience">
               <div class="icon">
@@ -131,7 +166,7 @@ skills: `
               </div>
               <div class="details">
                   <h3>Educator & Mentor</h3>
-                  <p class="company">Beaconhouse School System, Juniper Campus • Nov - Dec 2024</p>
+                  <p class="company">Beaconhouse School System, Juniper Campus • Nov 2024 - May 2025</p>
                   <p class="role">Mentored students and delivered lectures on modern education techniques.</p>
               </div>
           </div> 
@@ -182,6 +217,15 @@ skills: `
               <h3>FYP Thesis: Android Vulnerability Detection</h3>
               <p>Analyzed vulnerabilities in Android applications using reverse engineering and machine learning to enhance detection and classification of security threats.</p>
           </div>
+          <div class="project" id="network-packet-sniffer">
+                <h3>Network packet sniffer</h3>
+                <p>A tool to capture and analyze network packets using Scapy library to extract key information also supports filtering based on protocols.</p>
+           </div>
+           <div class="project" id="saicafe">
+                <h3>Sai Cafe Management System Analysis and Reengineering</h3>
+                <p>Conducted pentesting and enhanced app security by fixing vulnerabilities and strengthening authentication and input validation.
+                </p>
+             </div>
           <div class="project" id="sdg-data-analytics">
               <h3>SDG 4 Data Analytics</h3>
               <p>Performed big data analysis using the UNESCO Quality Education dataset, extracting insights and processing large data files to support education-related decision-making.</p>
