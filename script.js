@@ -126,18 +126,6 @@ skills: `
       <!-- Cybersecurity Intern  -->
       <div class="experience">
           <div class="icon">
-            <i class="fas fa-bug"></i>
-          </div>
-          <div class="details">
-              <h3>Cybersecurity Intern</h3>
-              <p class="company">DevelopersHub.co • March - April 2025</p>
-              <p class="role"> Conducted pentesting and enhanced Saicafe app security by fixing vulnerabilities and strengthening it.</p>
-          </div>
-      </div>
-
-      <!-- Cybersecurity Intern  -->
-      <div class="experience">
-          <div class="icon">
             <i class="fas fa-network-wired"></i>
           </div>
           <div class="details">
