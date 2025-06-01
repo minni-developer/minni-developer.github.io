@@ -22,7 +22,7 @@ skills: `
       </div>
       <div class="details">
           <h3>Programming Languages</h3>
-          <p>Python, Java, C++, JavaScript, SQL</p>
+          <p>Python, Java, C++, JavaScript, Dart, SQL</p>
       </div>
   </div>
 
@@ -44,7 +44,7 @@ skills: `
       </div>
       <div class="details">
           <h3>Tools & Technologies</h3>
-          <p>Git, Docker, Spark, Figma, Wazuh, Let's Defend</p>
+          <p>Git, Docker, Spark, Figma, Flutter, Firebase, Wazuh</p>
       </div>
   </div>
 
@@ -205,6 +205,14 @@ skills: `
               <h3>FYP Thesis: Android Vulnerability Detection</h3>
               <p>Analyzed vulnerabilities in Android applications using reverse engineering and machine learning to enhance detection and classification of security threats.</p>
           </div>
+          <div class="project" id="todo-app">
+          <h3>DailyWins Todo App</h3>
+          <p>A Flutter application that helps you manage your daily tasks with priority-based filtering, due date tracking, and a persistent storage system powered by Hive.</p>
+          </div>
+          <div class="project" id="clip-clop-app">
+          <h3>ClipClop -Reminder App</h3>
+          <p>A friendly Flutter app that helps users remember to trim their nails regularly with cute reminders and positive reinforcement.</p>
+          </div>
           <div class="project" id="network-packet-sniffer">
                 <h3>Network packet sniffer</h3>
                 <p>A tool to capture and analyze network packets using Scapy library to extract key information also supports filtering based on protocols.</p>
@@ -293,6 +301,9 @@ skills: `
       `,
       honors: `
       <h2>Honors & Awards</h2> <br>
+      <div class="honor">
+      <p>🏆 Educator and behavioural counsellor<br>Beaconhouse School System</p>
+    </div>
       <div class="honor">
         <p>🏆 Ignite Cybersecurity Hackathon 2023<br>National Finalist</p>
       </div>
