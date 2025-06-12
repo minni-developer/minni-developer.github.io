@@ -270,10 +270,7 @@ skills: `
       certificates: `
       <h2>Certifications</h2>
       <br>
-      <div class="certification">
-      <img src="logo/PSEB.png" alt="PSEB Logo" class="cert-logo">
-      <p>Mobile Application Development<br>PSEB | Riphah Institute of Systems Engineering (RISE)</p>
-      </div>
+
       <div class="certification">
         <img src="logo/google.svg" alt="Google Logo" class="cert-logo">
         <p>Google Cybersecurity Specialization<br>Coursera | Google</p>
