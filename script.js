@@ -111,6 +111,20 @@ skills: `
       
       <h2>Work Experience</h2> <br>
       <div class="experience-container">
+
+      <!--UK Operations Manager -->
+      <div class="experience">
+          <div class="icon">
+              <i class="fas fa-headset"></i>
+          </div>
+          <div class="details">
+              <h3>Support Operations & QA Specialist </h3>
+              <p class="company">Quick Up • June 2025 - Present </p>
+              <p class="role">Delivered real-time operational support, streamlined order management processes, and executed QA testing to optimize platform efficiency and user satisfaction. </p>
+          </div>
+      </div>
+
+
       <!-- Cybersecurity Intern -->
       <div class="experience">
           <div class="icon">
@@ -256,6 +270,10 @@ skills: `
       certificates: `
       <h2>Certifications</h2>
       <br>
+      <div class="certification">
+      <img src="logo/PSEB.png" alt="PSEB Logo" class="cert-logo">
+      <p>Mobile Application Development<br>PSEB | Riphah Institute of Systems Engineering (RISE)</p>
+      </div>
       <div class="certification">
         <img src="logo/google.svg" alt="Google Logo" class="cert-logo">
         <p>Google Cybersecurity Specialization<br>Coursera | Google</p>
