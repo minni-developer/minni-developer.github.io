@@ -109,170 +109,256 @@ skills: `
       <!-- Include Font Awesome -->
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
       
-      <h2>Work Experience</h2> <br>
+      <h2>Work Experience</h2><br>
       <div class="experience-container">
-
-      <!--UK Operations Manager -->
-      <div class="experience">
+      
+        <!-- Support Operations -->
+        <div class="experience">
           <div class="icon">
-              <i class="fas fa-headset"></i>
+            <i class="fas fa-headset"></i>
           </div>
           <div class="details">
-              <h3>Support Operations & QA Specialist </h3>
-              <p class="company">Quick Up • June 2025 - Present </p>
-              <p class="role">Delivered real-time operational support, streamlined order management processes, and executed QA testing to optimize platform efficiency and user satisfaction. </p>
+            <h3>Support Operations & QA Specialist</h3>
+            <p class="company">Quick Up</p>
+            <p class="date">June 2025 - Present</p>
+            <p class="role">Delivered real-time operational support, streamlined order management processes, and executed QA testing to optimize platform efficiency and user satisfaction.</p>
           </div>
-      </div>
-
-
-      <!-- Cybersecurity Intern -->
-      <div class="experience">
+        </div>
+      
+        <!-- Research Lead -->
+        <div class="experience">
           <div class="icon">
-          <i class="fas fa-lock"></i>
+            <i class="fas fa-chart-line"></i>
           </div>
           <div class="details">
-              <h3>Cybersecurity Intern </h3>
-              <p class="company">Developershub.Co • March - April 2025</p>
-              <p class="role">Tested and improved a Saicafe management system while assisting in vulnerability assessment and overall system security enhancement. </p>
+            <h3>Research Lead</h3>
+            <p class="company">Quetta Chamber of Commerce</p>
+            <p class="date">June - July 2025</p>
+            <p class="role">Led an agro-industrial feasibility study, proposed optimal solutions covering financial, logistical, and operational aspects to enhance regional trade.</p>
           </div>
-      </div>
-
-      <!-- Cybersecurity Intern  -->
-      <div class="experience">
+        </div>
+      
+        <!-- Cybersecurity Intern - Developershub -->
+        <div class="experience">
+          <div class="icon">
+            <i class="fas fa-lock"></i>
+          </div>
+          <div class="details">
+            <h3>Cybersecurity Intern</h3>
+            <p class="company">Developershub.Co</p>
+            <p class="date">March - April 2025</p>
+            <p class="role">Tested and improved a Saicafe management system while assisting in vulnerability assessment and overall system security enhancement.</p>
+          </div>
+        </div>
+      
+        <!-- Cybersecurity Intern - Code Alpha -->
+        <div class="experience">
           <div class="icon">
             <i class="fas fa-network-wired"></i>
           </div>
           <div class="details">
-              <h3>Cybersecurity Intern</h3>
-              <p class="company">Code Alpha • Feb - May 2025</p>
-              <p class="role">Build a network sniffer tool to capture and analyze network packets and extract key information while filtering based on protocols. </p>
+            <h3>Cybersecurity Intern</h3>
+            <p class="company">Code Alpha</p>
+            <p class="date">Feb - May 2025</p>
+            <p class="role">Built a network sniffer tool to capture and analyze network packets and extract key information while filtering based on protocols.</p>
           </div>
+        </div>
+      
+        <!-- SEO Strategist -->
+        <div class="experience">
+          <div class="icon">
+            <i class="fas fa-search-dollar"></i>
+          </div>
+          <div class="details">
+            <h3>SEO Auditor & Strategist</h3>
+            <p class="company">BISSTC</p>
+            <p class="date">Jan 2025</p>
+            <p class="role">Developed and implemented effective SEO strategies to enhance online visibility and drive organic traffic.</p>
+          </div>
+        </div>
+      
+        <!-- Educator -->
+        <div class="experience">
+          <div class="icon">
+            <i class="fas fa-user-graduate"></i>
+          </div>
+          <div class="details">
+            <h3>Educator & Mentor</h3>
+            <p class="company">Beaconhouse School System, Juniper Campus</p>
+            <p class="date">Nov 2024 - May 2025</p>
+            <p class="role">Mentored students and delivered lectures on modern education techniques.</p>
+          </div>
+        </div>
+      
+        <!-- PSEB Apprenticeship -->
+        <div class="experience">
+          <div class="icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <div class="details">
+            <h3>PSEB Apprenticeship</h3>
+            <p class="company">Ultrasoft System Inc.</p>
+            <p class="date">Aug - Sept 2024</p>
+            <p class="role">Conducted web penetration testing and vulnerability analysis to strengthen cybersecurity.</p>
+          </div>
+        </div>
+      
+        <!-- SEO Intern -->
+        <div class="experience">
+          <div class="icon">
+            <i class="fas fa-search"></i>
+          </div>
+          <div class="details">
+            <h3>SEO Intern</h3>
+            <p class="company">Icon Pro Digital Solutions</p>
+            <p class="date">Jan - Apr 2024</p>
+            <p class="role">Assisted in developing and maintaining comprehensive SEO strategies for client projects.</p>
+          </div>
+        </div>
+      
+        <!-- Teaching Assistant -->
+        <div class="experience">
+          <div class="icon">
+            <i class="fas fa-chalkboard-teacher"></i>
+          </div>
+          <div class="details">
+            <h3>Teaching Assistant</h3>
+            <p class="company">BUITEMS</p>
+            <p class="date">Aug - Dec 2023</p>
+            <p class="role">Facilitated machine learning lectures, supervised labs, and assisted in debugging projects.</p>
+          </div>
+        </div>
+      
       </div>
-
-          <!-- SEO Auditor & Strategist -->
-          <div class="experience">
-              <div class="icon">
-                  <i class="fas fa-search-dollar"></i>
-              </div>
-              <div class="details">
-                  <h3>SEO Auditor & Strategist</h3>
-                  <p class="company">BISSTC • Jan 2025</p>
-                  <p class="role">Developed and implemented effective SEO strategies to enhance online visibility and drive organic traffic.</p>
-              </div>
-          </div>
-    
-          <!-- Educator & Mentorship -->
-          <div class="experience">
-              <div class="icon">
-                  <i class="fas fa-user-graduate"></i>
-              </div>
-              <div class="details">
-                  <h3>Educator & Mentor</h3>
-                  <p class="company">Beaconhouse School System, Juniper Campus • Nov 2024 - May 2025</p>
-                  <p class="role">Mentored students and delivered lectures on modern education techniques.</p>
-              </div>
-          </div> 
-          
-          <!-- PSEB Apprenticeship -->
-          <div class="experience">
-              <div class="icon">
-              <i class="fas fa-shield-alt"></i>
-              </div>
-              <div class="details">
-                  <h3>PSEB Apprenticeship</h3>
-                  <p class="company">Ultrasoft System Inc. • Aug - Sept 2024</p>
-                  <p class="role">Conducted web penetration testing and vulnerability analysis to strengthen cybersecurity.</p>
-              </div>
-          </div>
-          
-          <!-- SEO Intern -->
-          <div class="experience">
-              <div class="icon">
-                  <i class="fas fa-search"></i>
-              </div>
-              <div class="details">
-                  <h3>SEO Intern</h3>
-                  <p class="company">Icon Pro Digital Solutions • Jan - Apr 2024</p>
-                  <p class="role">Assisted in developing and maintaining comprehensive SEO strategies for client projects.</p>
-              </div>
-          </div>
-          
-          <!-- Teaching Assistance -->
-          <div class="experience">
-              <div class="icon">
-                  <i class="fas fa-chalkboard-teacher"></i>
-              </div>
-              <div class="details">
-                  <h3>Teaching Assistant</h3>
-                  <p class="company">BUITEMS • Aug - Dec 2023</p>
-                  <p class="role">Facilitated machine learning lectures, supervised labs, and assisted in debugging projects.</p>
-              </div>
-          </div>
-      </div>
+      
       
       `,
       projects: `
       <h2>Projects</h2>
       <br>
+    
+      <div class="project-header research">
+      <i class="fas fa-flask"></i>
+      <span>Research Projects</span>
+    </div>
       <div class="projects-container">
           <div class="project" id="thesis">
               <h3>FYP Thesis: Android Vulnerability Detection</h3>
               <p>Analyzed vulnerabilities in Android applications using reverse engineering and machine learning to enhance detection and classification of security threats.</p>
           </div>
-          <div class="project" id="todo-app">
-          <h3>DailyWins Todo App</h3>
-          <p>A Flutter application that helps you manage your daily tasks with priority-based filtering, due date tracking, and a persistent storage system powered by Hive.</p>
+          <div class="project" id="gtd-data-analytics">
+          <h3>GTD Big Data Reserch</h3>
+          <p>Used Big data and MLlib to identify significant trends of  terrorist activities in South Asia.Compared local patterns, providing policymakers with information to improve international security.</p>
           </div>
-          <div class="project" id="clip-clop-app">
-          <h3>ClipClop -Reminder App</h3>
-          <p>A friendly Flutter app that helps users remember to trim their nails regularly with cute reminders and positive reinforcement.</p>
-          </div>
-          <div class="project" id="network-packet-sniffer">
-                <h3>Network packet sniffer</h3>
-                <p>A tool to capture and analyze network packets using Scapy library to extract key information also supports filtering based on protocols.</p>
-           </div>
-           <div class="project" id="saicafe">
-                <h3>Sai Cafe Management System Analysis and Reengineering</h3>
-                <p>Conducted pentesting and enhanced app security by fixing vulnerabilities and strengthening authentication and input validation.
-                </p>
-             </div>
           <div class="project" id="sdg-data-analytics">
               <h3>SDG 4 Data Analytics</h3>
               <p>Performed big data analysis using the UNESCO Quality Education dataset, extracting insights and processing large data files to support education-related decision-making.</p>
-          </div>
-          <div class="project" id="jedit-customization">
-              <h3>Jedit Customization</h3>
-              <p>Reverse-engineered the Java text editor by adding new modules and improving the system's functionality.</p>
-          </div>
-          <div class="project" id="network-simulation">
-              <h3>Comprehensive Network Simulation</h3>
-              <p>Designed a network simulation incorporating key security concepts, such as VLAN configuration, port security, and VTP integration.</p>
           </div>
           <div class="project" id="stress-detection-research">
               <h3>Stress Detection Research</h3>
               <p>Researched stress detection using machine learning models and performed a comparative analysis of multiple algorithms.</p>
           </div>
+      </div>
+    
+      <br>
+    
+      <div class="project-header">
+      <i class="fas fa-code"></i>
+      <span>Development Projects</span>
+    </div>
+      <div class="projects-container">
+          <div class="project" id="birthday-app">
+              <h3>Birthday Surprise App</h3>
+              <p>A Flutter application that </p> <br>
+              <a href="https://github.com/minni-developer/Birthday_Surprise_App.git" target="_blank" class="github-link">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          </div>
+
+          <div class="project" id="todo-app">
+              <h3>DailyWins Todo App</h3>
+              <p>A Flutter application that helps you manage your daily tasks with priority-based filtering, due date tracking, and a persistent storage system powered by Hive.</p><br>
+              <a href="https://github.com/minni-developer/My_TodoApp.git" target="_blank" class="github-link">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          </div>
+
+          <div class="project" id="clip-clop-app">
+              <h3>ClipClop -Reminder App</h3>
+              <p>A friendly Flutter app that helps users remember to trim their nails regularly with cute reminders and positive reinforcement.</p><br>
+              <a href="https://github.com/minni-developer/ClipClop_nail_mate.git" target="_blank" class="github-link">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          </div>
+
+          <div class="project" id="network-packet-sniffer">
+              <h3>Network packet sniffer</h3>
+              <p>A tool to capture and analyze network packets using Scapy library to extract key information also supports filtering based on protocols.</p><br>
+              <a href="https://github.com/minni-developer/Code_Alpha_Projects.git" target="_blank" class="github-link">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          </div>
+
+          <div class="project" id="saicafe">
+              <h3>Sai Cafe Management System Analysis and Reengineering</h3>
+              <p>Conducted pentesting and enhanced app security by fixing vulnerabilities and strengthening authentication and input validation.</p><br>
+              <a href="https://github.com/minni-developer/DevelopersHub_Internship.git" target="_blank" class="github-link">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          </div>
+
+          <div class="project" id="jedit-customization">
+              <h3>Jedit Customization</h3>
+              <p>Reverse-engineered the Java text editor by adding new modules and improving the system's functionality.</p><br>
+              <a href="https://github.com/minni-developer/Jedit_Project.git" target="_blank" class="github-link">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          </div>
+
+          <div class="project" id="network-simulation">
+              <h3>Comprehensive Network Simulation</h3>
+              <p>Designed a network simulation incorporating key security concepts, such as VLAN configuration, port security, and VTP integration.</p><br>
+              <a href="#" target="_blank" class="github-link">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          </div>
+
           <div class="project" id="web-portal">
               <h3>Co-Curricular Web Portal</h3>
-              <p>Automated university clubs and councils management, providing a platform for students to register for co-curricular activities.</p>
+              <p>Automated university clubs and councils management, providing a platform for students to register for co-curricular activities.</p><br>
+              /* <a href="#" target="_blank" class="github-link">
+              <i class="fab fa-github"></i> View on GitHub */
+            </a>
           </div>
+
           <div class="project" id="management-system">
               <h3>Object-Oriented Management System</h3>
-              <p>Created a management system using OOP principles, with a user-friendly Java interface for administrative tasks.</p>
+              <p>Created a management system using OOP principles, with a user-friendly Java interface for administrative tasks.</p><br>
+              <a href="#" target="_blank" class="github-link">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
           </div>
+
           <div class="project" id="branding-designing">
               <h3>Business Branding & Graphic Design</h3>
-              <p>Executed branding for a hypothetical business, including logo design, promotional materials, and visual identity.</p>
+              <p>Executed branding for a hypothetical business, including logo design, promotional materials, and visual identity.</p><br>
+              <a href="#" target="_blank" class="github-link">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
           </div>
       </div>
-      
-      `,
+    `,
+    
       certificates: `
       <h2>Certifications</h2>
       <br>
       <div class="certification">
       <img src="logo/PSEB.png" alt="PSEB Logo" class="cert-logo">
       <p>Mobile Application Development<br>PSEB | Riphah Institute of Systems Engineering (RISE)</p>
+      </div>
+      <div class="certification">
+      <img src="logo/PSEB.png" alt="PSEB Logo" class="cert-logo">
+      <p>Unity Game Development<br>PSEB | Riphah Institute of Systems Engineering (RISE)</p>
       </div>
       <div class="certification">
         <img src="logo/google.svg" alt="Google Logo" class="cert-logo">
@@ -312,9 +398,12 @@ skills: `
       </div>
       <div class="certification">
       <img src="logo/Digibizz.jpeg" alt="DigiBizz logo" class="cert-logo">
-      <p>Introduction to Cybersecurity<br>Cisco Networking Academy</p>
-    </div>
-
+      <p>SEO & Digital Marketing<br>DigiBizz Freelancing & Entrepreneurship Program</p>
+      </div>
+      <div class="certification">
+      <img src="logo/Digibizz.jpeg" alt="DigiBizz logo" class="cert-logo">
+      <p>Digital Designing<br>DigiBizz Freelancing & Entrepreneurship Program</p>
+      </div>
     
       `,
       honors: `
@@ -407,6 +496,7 @@ skills: `
       <h2>Contact Me</h2> <br>
       <div class="social">
           <p><i class="fab fa-github" aria-hidden="true"></i> <a href="https://github.com/minni-developer" target="_blank">GitHub</a></p>
+          <p><i class="fab fa-medium" aria-hidden="true"></i> <a href="https://medium.com/@manahilsabir544" target="_blank">Medium</a></p>
           <p><i class="fas fa-shield-alt" aria-hidden="true"></i> <a href="https://app.letsdefend.io/user/manahilsabir544" target="_blank">Let's Defend</a></p>
           <p><i class="fab fa-linkedin" aria-hidden="true"></i> <a href="https://www.linkedin.com/in/manahil-sabir-0584a8253/" target="_blank">LinkedIn</a></p>
           <p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:manahilsabir544@gmail.com">Email</a></p>
@@ -418,20 +508,23 @@ skills: `
       <h2>About Me</h2>
       <br>
       <div class="about-container">
-          <div class="about-content">
-              <p>
-                  Hello! I’m <strong>Manahil Sabir</strong>, a <span class="highlight">cybersecurity enthusiast</span> with a keen focus on <span class="highlight">threat intelligence</span> and <span class="highlight">ethical hacking</span>. I hold a BS in Software Engineering, where I graduated with a CGPA of <strong>3.5</strong>. My journey has been fueled by a passion for leveraging technology to tackle real-world challenges.
-              </p>
-              <p>
-                  During my academic career, I honed my skills through hands-on internships in <strong>web penetration testing</strong> and <strong>SEO</strong>, engaging in projects that showcase my creativity and technical prowess. My expertise spans various programming languages, machine learning techniques, and ethical hacking practices, empowering me to approach problems from diverse angles.
-              </p>
-              <p>
-                  I thrive in collaborative environments and possess strong teaching and mentoring abilities, allowing me to convey complex ideas with clarity. Additionally, my multilingual skills enhance my ability to connect with individuals from different backgrounds.
-              </p>
-              <p>
-                  I am eager to contribute to innovative projects that advance technology security and efficiency. With a results-oriented mindset and a commitment to excellence, I look forward to making a meaningful impact as part of a dynamic team.
-              </p>
-          </div>
+      <div class="about-content">
+      <p>
+          👋 Hello! I’m <strong>Manahil Sabir</strong> a <span class="highlight">QA Engineer</span> turned <span class="highlight">cybersecurity enthusiast</span> with a love for <span class="highlight">ethical hacking</span> 🔐 and <span class="highlight">threat intelligence</span> 🕵️‍♀️. I hold a <strong>BS in Software Engineering</strong> (CGPA 3.5), and my journey has been all about breaking things (nicely) to make them better!
+      </p>
+      <p>
+          🛠️ From hands-on internships in <strong>web penetration testing</strong> and <strong>SEO</strong> to crafting <em>research studies</em>, I’ve worked on real world challenges across tech and strategy. I love merging creativity with technical precision.
+      </p>
+      <p>
+          👩‍💻 My toolkit includes programming, reverse engineering, machine learning 🤖, and testing methodologies, helping me tackle problems from multiple angles. Whether it’s a bug in your app 🐞 or a security hole in your server, I’m probably already on it.
+      </p>
+      <p>
+          🌍 I thrive in collaborative spaces, speak multiple languages 🗣️, and enjoy simplifying complex tech into human friendly terms. I also love teaching and mentoring whenever I get the chance.
+      </p>
+      <p>
+          🚀 Currently diving deeper into the world of cybersecurity, I'm always up for exciting projects that make the digital world smarter and safer. Let’s connect, build, break (ethically), and secure together!
+      </p>
+  </div>
       </div>
       
       `,
@@ -535,4 +628,43 @@ skills: `
   // Initial content load and rotating text
   content.innerHTML = sections.content; // Load initial content
   rotateText(); // Start rotating text on load
+});
+
+
+// Theme toggle logic
+const themeToggleBtn = document.getElementById('theme-toggle');
+themeToggleBtn.addEventListener('click', () => {
+  document.body.classList.toggle('light-mode');
+  localStorage.setItem('theme', document.body.classList.contains('light-mode') ? 'light' : 'dark');
+});
+
+// Persist theme
+if (localStorage.getItem('theme') === 'light') {
+  document.body.classList.add('light-mode');
+}
+
+
+// Sidebar Hamburger Toggle
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburger = document.getElementById('hamburger');
+  hamburger.addEventListener('click', () => {
+    document.body.classList.toggle('sidebar-collapsed');
+  });
+
+  // Auto-collapse sidebar on link click (mobile only)
+  const fileLinks = document.querySelectorAll('.file');
+  fileLinks.forEach(link => {
+    link.addEventListener('click', () => {
+      if (window.innerWidth <= 1024) {
+        document.body.classList.add('sidebar-collapsed');
+      }
+    });
+  });
+
+  // Auto-restore on resize
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 1024) {
+      document.body.classList.remove('sidebar-collapsed');
+    }
+  });
 });

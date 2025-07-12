@@ -11,6 +11,10 @@
   </style>
 </head>
 <body>
+  <div class="hamburger" id="hamburger">
+    <i class="fas fa-bars"></i>
+  </div>
+  
   <div class="vscode-theme">
     <!-- Sidebar -->
     <div class="sidebar">
@@ -32,11 +36,21 @@
           <li><a href="#" class="file" data-section="blogs"><i class="fas fa-book"></i> Blogs</a></li>
           <li><a href="#" class="file" data-section="contact"><i class="fas fa-envelope"></i> Contact Me</a></li>
       </ul>
+
+
+      
     </div>
 
     <!-- Main Content Area -->
     <div class="content">
-      <div id="main-content">
+              <!-- Theme Toggle Button (top-right) -->
+      <div class="theme-toggle-container">
+        <button id="theme-toggle" class="theme-toggle">
+          <i class="fas fa-moon"></i> Theme
+        </button>
+      </div>
+
+    <div id="main-content">
         <section class="welcome-section">
           <h1>Welcome to My Portfolio</h1>
           <p id="rotatingText">I am a <span id="dynamicPhrase"></span></p>
