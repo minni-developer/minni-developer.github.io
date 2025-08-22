@@ -133,7 +133,7 @@ skills: `
           <div class="details">
             <h3>Research Lead</h3>
             <p class="company">Quetta Chamber of Commerce</p>
-            <p class="date">June - July 2025</p>
+            <p class="date">June - August 2025</p>
             <p class="role">Led an agro-industrial feasibility study, proposed optimal solutions covering financial, logistical, and operational aspects to enhance regional trade.</p>
           </div>
         </div>
