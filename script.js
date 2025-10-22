@@ -267,9 +267,17 @@ skills: `
       <span>Development Projects</span>
     </div>
       <div class="projects-container">
+          <div class="project" id="snapchat-memories">
+              <h3>Auto Snap Downloader</h3>
+              <p>A Python + Selenium automation tool to download all your Snapchat Memories directly from the exported memories_history.html file. </p> <br>
+              <a href="https://github.com/minni-developer/Snapchat-memories-solution.git" target="_blank" class="github-link">
+              <i class="fab fa-github"></i> View on GitHub
+            </a>
+          </div>
+
           <div class="project" id="birthday-app">
               <h3>Birthday Surprise App</h3>
-              <p>A Flutter application that </p> <br>
+              <p>A Flutter app designed to surprise someone special on their birthday, featuring beautiful animations, heartfelt messages, cheerful icons, and hourly birthday notifications that make their day feel truly magical!</p> <br>
               <a href="https://github.com/minni-developer/Birthday_Surprise_App.git" target="_blank" class="github-link">
               <i class="fab fa-github"></i> View on GitHub
             </a>
