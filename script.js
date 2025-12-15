@@ -334,7 +334,6 @@ skills: `
           <div class="project" id="web-portal">
               <h3>Co-Curricular Web Portal</h3>
               <p>Automated university clubs and councils management, providing a platform for students to register for co-curricular activities.</p><br>
-              /* <a href="#" target="_blank" class="github-link">
               <i class="fab fa-github"></i> View on GitHub */
             </a>
           </div>
