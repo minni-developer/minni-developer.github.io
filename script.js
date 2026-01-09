@@ -112,6 +112,20 @@ skills: `
       <h2>Work Experience</h2><br>
       <div class="experience-container">
       
+      <!-- GRC MTO -->
+      <div class="experience">
+        <div class="icon">
+          <i class="fas fa-shield-alt"></i>
+        </div>
+        <div class="details">
+          <h3>Management Trainee </h3>
+          <p class="company">SKY47</p>
+          <p class="date">January 2026 - Present</p>
+          <p class="role">--- </p>
+        </div>
+      </div>
+    
+
         <!-- Support Operations -->
         <div class="experience">
           <div class="icon">
@@ -120,7 +134,7 @@ skills: `
           <div class="details">
             <h3>Support Operations & QA Specialist</h3>
             <p class="company">Quick Up</p>
-            <p class="date">June 2025 - Present</p>
+            <p class="date">June 2025 - Jan 2026</p>
             <p class="role">Delivered real-time operational support, streamlined order management processes, and executed QA testing to optimize platform efficiency and user satisfaction.</p>
           </div>
         </div>
